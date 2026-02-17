@@ -4,74 +4,79 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Pixel & Quill Studio | Book Cover Design & Author Branding</title>
-  <meta name="description" content="Pixel & Quill Studio creates book covers, author branding, formatting and bookish design—made with love in Australia." />
-  <link rel="stylesheet" href="assets/style.css" />
+  <meta name="description" content="Cute, premium book cover design + author branding. Made with love in Australia." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<a class="skip" href="#content">Skip to content</a>
 
-<header class="site-header" data-open="false">
-  <div class="container nav-wrap">
+<header>
+  <div class="container nav">
     <a class="brand" href="index.html">
-      <div class="logo" aria-hidden="true"></div>
-      <span>Pixel & Quill Studio<small>Designing the plot ✨</small></span>
+      <span class="logo" aria-hidden="true"></span>
+      <span>Pixel &amp; Quill Studio<small>covers • branding • bookish bits</small></span>
     </a>
 
-    <button class="mobile-toggle" data-nav-toggle aria-label="Toggle menu">Menu</button>
+    <input id="navToggle" type="checkbox" aria-label="Toggle menu" />
+    <label class="burger" for="navToggle">Menu</label>
 
-    <nav class="site-nav" aria-label="Primary">
-      <a href="index.html">Welcome</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a class="active" href="index.html">Home</a>
       <a href="services.html">Services</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="premades.html">Premades</a>
       <a href="contact.html">Contact</a>
     </nav>
 
-    <div class="nav-cta">
+    <div class="cta-row">
       <a class="btn" href="portfolio.html">See work</a>
-      <a class="btn btn-primary" href="contact.html">Email me</a>
+      <a class="btn btn-primary" href="contact.html">Enquire</a>
     </div>
   </div>
 </header>
 
-<main>
+<main id="content">
   <section class="hero">
     <div class="container hero-grid">
-      <div class="hero-card">
+      <div class="panel">
         <div class="kicker">
-          <span class="pill">Made with love in <strong>Australia</strong></span>
-          <span class="pill">No AI • Human design</span>
+          <span class="pill">✨ Bookish-first design</span>
+          <span class="pill">🇦🇺 Made in <b>Australia</b></span>
+          <span class="pill">💌 Friendly process</span>
         </div>
 
-        <h1>Book covers + branding that make readers one-click.</h1>
+        <h1>Covers and branding that make readers one-click.</h1>
         <p class="subhead">
-          Hi! I’m Georgia — a graphic designer bringing beautiful, scroll-stopping designs into the bookish space:
-          author branding, PR box design, pretty formatting, and book covers. :contentReference[oaicite:1]{index=1}
+          Premium, romantic, scroll-stopping design for authors who want their book to look
+          as unput-downable as it reads.
         </p>
 
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="contact.html">Let’s create together</a>
+        <div class="actions">
+          <a class="btn btn-primary" href="contact.html">Let’s work together</a>
           <a class="btn" href="services.html">View services + pricing</a>
         </div>
 
         <div class="stats" aria-label="Highlights">
-          <div class="stat"><b>Bookish-first</b><span>Covers + branding made for your genre</span></div>
-          <div class="stat"><b>Clean process</b><span>Clear steps, deadlines, and deliverables</span></div>
-          <div class="stat"><b>Conversion focused</b><span>Built to stop scrolls + drive clicks</span></div>
+          <div class="stat"><b>Genre clarity</b><span>So your target reader instantly gets it</span></div>
+          <div class="stat"><b>Polished + cute</b><span>Pretty… but strategic</span></div>
+          <div class="stat"><b>Conversion-led</b><span>Built to stop scrolls &amp; drive clicks</span></div>
         </div>
       </div>
 
-      <aside class="side-card">
-        <h3>Quick start (high-converting)</h3>
-        <ul class="checklist">
-          <li><b>Pick your service</b> (custom cover, branding package, formatting, a-la-carte).</li>
-          <li><b>Send an enquiry</b> with your vibe + deadline.</li>
-          <li><b>I reply with next steps</b> (this form doesn’t “book” you in — we chat first). :contentReference[oaicite:2]{index=2}</li>
+      <aside class="side">
+        <h3>Not sure what to book?</h3>
+        <p>Pick the one that matches your goal 👇</p>
+        <ul class="list">
+          <li><b>New release:</b> custom cover + matching socials</li>
+          <li><b>Rebrand:</b> author branding package</li>
+          <li><b>Fast option:</b> premade cover (claim quickly)</li>
         </ul>
-        <p class="note">Want something quick? Check the premades collection.</p>
-        <div class="hero-actions">
+        <div class="divider"></div>
+        <div class="actions">
           <a class="btn" href="premades.html">Browse premades</a>
-          <a class="btn btn-primary" href="contact.html">Enquire now</a>
+          <a class="btn btn-primary" href="contact.html">Ask me what fits</a>
         </div>
+        <p class="note">Enquiry doesn’t auto-book you — I’ll reply with next steps.</p>
       </aside>
     </div>
   </section>
@@ -80,51 +85,28 @@
     <div class="container">
       <div class="section-head">
         <div>
-          <h2>Services that support your whole release</h2>
-          <p>From covers to formatting to those extra bookish touches that make your brand feel cohesive everywhere.</p>
+          <h2>Your whole release, visually cohesive</h2>
+          <p>Pick a service, get a clear process, and leave with files you can actually use everywhere.</p>
         </div>
-        <a class="btn" href="services.html">See all services</a>
+        <a class="btn" href="services.html">See all</a>
       </div>
 
       <div class="grid grid-3">
         <div class="card">
-          <span class="badge">Most loved</span>
-          <h3>Book cover design</h3>
-          <p>Custom + premade options for scroll-stopping, genre-clear covers.</p>
+          <span class="badge">Most booked</span>
+          <h3>Custom covers</h3>
+          <p>Romantic, moody, sweet, dark—made to fit your genre and your reader.</p>
+          <div class="price"><b>From: $___ AUD</b><span>Ask for quote</span></div>
         </div>
         <div class="card">
           <h3>Author branding</h3>
-          <p>Logos, colour palette, icons, and a consistent look across socials + print.</p>
+          <p>Logos, palettes, fonts, icons—so your socials + print match and feel premium.</p>
+          <div class="price"><b>From: $___ AUD</b><span>Packages available</span></div>
         </div>
         <div class="card">
-          <h3>Formatting</h3>
-          <p>Starts at <b>$100 AUD</b> — tailored to your chapter art, breaks, text messages, etc. :contentReference[oaicite:3]{index=3}</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <div class="section-head">
-        <div>
-          <h2>Kind words</h2>
-          <p>Your current site uses handwritten notes/testimonial images — pop the text into these cards when you’re ready.</p>
-        </div>
-      </div>
-
-      <div class="grid grid-3">
-        <div class="card testimonial">
-          <h3>“So easy to work with.”</h3>
-          <p>Replace this with a real testimonial (copy/paste text). Add author name + book title.</p>
-        </div>
-        <div class="card testimonial">
-          <h3>“She nailed my vision.”</h3>
-          <p>Replace this with your favourite line from a client note or DM.</p>
-        </div>
-        <div class="card testimonial">
-          <h3>“The cover is everything.”</h3>
-          <p>Replace this with another client quote + proof point (launch, sales, ARC reactions, etc.).</p>
+          <h3>Formatting + extras</h3>
+          <p>Interior formatting, A+ content, PR box design, merch, sprayed edges &amp; more.</p>
+          <div class="price"><b>From: $___ AUD</b><span>À la carte</span></div>
         </div>
       </div>
     </div>
@@ -133,11 +115,11 @@
   <section class="cta">
     <div class="container">
       <div class="cta-box">
-        <h2>Ready to make your book look unput-downable?</h2>
-        <p>Tell me your genre, your release date, and the vibe you want readers to feel when they see your cover.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="contact.html">Enquire (fastest)</a>
-          <a class="btn" href="portfolio.html">See portfolio first</a>
+        <h2>Want the “cute but professional” look?</h2>
+        <p>Send your genre + deadline and I’ll recommend the best option for your release.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="contact.html">Enquire now</a>
+          <a class="btn" href="portfolio.html">See examples</a>
         </div>
       </div>
     </div>
@@ -145,16 +127,10 @@
 </main>
 
 <footer>
-  <div class="container footer-grid">
-    <div class="small">© 2026 Pixel & Quill Studio • Made with love in Australia</div>
-    <div class="small">
-      <a href="contact.html">Contact</a> •
-      <a href="services.html">Services</a> •
-      <a href="portfolio.html">Portfolio</a>
-    </div>
+  <div class="container foot">
+    <div class="small">© 2026 Pixel &amp; Quill Studio • Made with love in Australia</div>
+    <div class="small"><a href="services.html">Services</a> • <a href="contact.html">Contact</a></div>
   </div>
 </footer>
-
-<script src="assets/main.js"></script>
 </body>
 </html>
