@@ -4,56 +4,63 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Contact | Pixel & Quill Studio</title>
-  <meta name="description" content="Contact Pixel & Quill Studio to discuss your book cover, branding, or formatting project." />
-  <link rel="stylesheet" href="assets/style.css" />
+  <meta name="description" content="Enquire about book covers, branding, formatting, and bookish design." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<a class="skip" href="#content">Skip to content</a>
 
-<header class="site-header" data-open="false">
-  <div class="container nav-wrap">
-    <a class="brand" href="index.html"><div class="logo" aria-hidden="true"></div><span>Pixel & Quill Studio<small>Contact</small></span></a>
-    <button class="mobile-toggle" data-nav-toggle aria-label="Toggle menu">Menu</button>
-    <nav class="site-nav" aria-label="Primary">
-      <a href="index.html">Welcome</a>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><span class="logo" aria-hidden="true"></span><span>Pixel &amp; Quill Studio<small>contact</small></span></a>
+
+    <input id="navToggle" type="checkbox" aria-label="Toggle menu" />
+    <label class="burger" for="navToggle">Menu</label>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
       <a href="services.html">Services</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="premades.html">Premades</a>
-      <a href="contact.html">Contact</a>
+      <a class="active" href="contact.html">Contact</a>
     </nav>
-    <div class="nav-cta">
+
+    <div class="cta-row">
       <a class="btn" href="services.html">Pricing</a>
       <a class="btn btn-primary" href="mailto:hello@pixelandquillstudio.com.au?subject=Pixel%20%26%20Quill%20Enquiry">Email me</a>
     </div>
   </div>
 </header>
 
-<main>
+<main id="content">
   <section class="hero">
     <div class="container hero-grid">
-      <div class="hero-card">
-        <h1>Contact me</h1>
+      <div class="panel">
+        <h1>Let’s chat ✨</h1>
         <p class="subhead">
-          Thank you so much for showing interest in working with me! Filling out this form doesn’t book you in —
-          I’ll reach out and we can chat about what you’re looking for. :contentReference[oaicite:15]{index=15}
+          Filling this out doesn’t auto-book you in — I’ll reply with availability, next steps, and a quote.
         </p>
 
-        <div class="hero-actions">
+        <div class="actions">
           <a class="btn btn-primary" href="mailto:hello@pixelandquillstudio.com.au?subject=Pixel%20%26%20Quill%20Enquiry">Email me</a>
           <a class="btn" href="https://www.instagram.com/pixelandquillstudio/" target="_blank" rel="noopener">DM on Instagram</a>
         </div>
 
+        <div class="divider"></div>
+
         <p class="note">
-          If your email address is different, just change <code>hello@pixelandquillstudio.com.au</code> to the right one.
+          GitHub Pages can’t “send” forms by itself — if you want a working form, you’ll need a form service
+          (Formspree is the easiest). For now, email/DM converts best anyway.
         </p>
       </div>
 
-      <aside class="side-card">
-        <h3>What to send</h3>
-        <ul class="checklist">
+      <aside class="side">
+        <h3>What to include</h3>
+        <ul class="list">
           <li>Genre + tropes</li>
           <li>Release date / deadline</li>
-          <li>Service you want (cover, branding, formatting, a-la-carte)</li>
-          <li>Inspo links + must-have elements</li>
+          <li>Service (cover / branding / formatting / premade)</li>
+          <li>Inspo links + must-haves</li>
         </ul>
       </aside>
     </div>
@@ -63,23 +70,19 @@
     <div class="container">
       <div class="section-head">
         <div>
-          <h2>Enquiry form (optional)</h2>
-          <p>To make this actually submit on GitHub Pages, use Formspree: replace the <code>action</code> URL.</p>
+          <h2>Optional enquiry form (needs Formspree)</h2>
+          <p>If you set up Formspree later, replace the <b>action</b> URL.</p>
         </div>
       </div>
 
       <div class="grid grid-2">
         <div class="card">
-          <h3>Formspree setup (2 minutes)</h3>
-          <p class="small">
-            1) Go to Formspree and create a form<br>
-            2) Copy your form endpoint URL<br>
-            3) Paste it into the <code>action</code> below
-          </p>
+          <h3>Fastest conversion tip</h3>
+          <p>Keep the primary CTA as <b>Email me</b>. A form is nice, but email closes faster.</p>
         </div>
 
         <div class="card">
-          <form class="form" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+          <form class="form" method="POST" action="https://formspree.io/f/YOUR_ID">
             <div>
               <label for="name">Name</label>
               <input id="name" name="name" placeholder="Your name" required />
@@ -96,7 +99,6 @@
             </div>
 
             <button class="btn btn-primary" type="submit">Send enquiry</button>
-            <p class="small">If you haven’t set up Formspree yet, use the Email Me button above.</p>
           </form>
         </div>
       </div>
@@ -105,12 +107,10 @@
 </main>
 
 <footer>
-  <div class="container footer-grid">
-    <div class="small">© 2026 Pixel & Quill Studio • Made with love in Australia</div>
+  <div class="container foot">
+    <div class="small">© 2026 Pixel &amp; Quill Studio</div>
     <div class="small"><a href="index.html">Home</a> • <a href="services.html">Services</a></div>
   </div>
 </footer>
-
-<script src="assets/main.js"></script>
 </body>
 </html>
