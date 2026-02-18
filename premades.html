@@ -1,82 +1,54 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Premades | Pixel & Quill Studio</title>
-  <meta name="description" content="Premade book covers ready to claim quickly." />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a class="skip" href="#content">Skip to content</a>
 
 <header>
-  <div class="container nav">
-    <a class="brand" href="index.html"><span class="logo" aria-hidden="true"></span><span>Pixel &amp; Quill Studio<small>premades</small></span></a>
+  <div class="container topbar">
+    <div class="brand">
+      Pixel &amp; Quill Studio
+      <small>Premades</small>
+    </div>
 
-    <input id="navToggle" type="checkbox" aria-label="Toggle menu" />
-    <label class="burger" for="navToggle">Menu</label>
-
-    <nav class="nav-links" aria-label="Primary">
+    <nav>
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
       <a href="portfolio.html">Portfolio</a>
       <a class="active" href="premades.html">Premades</a>
       <a href="contact.html">Contact</a>
     </nav>
-
-    <div class="cta-row">
-      <a class="btn" href="portfolio.html">See work</a>
-      <a class="btn btn-primary" href="contact.html">Claim one</a>
-    </div>
   </div>
 </header>
 
-<main id="content">
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="panel">
-        <h1>Premade covers</h1>
-        <p class="subhead">Quick, cute, and genre-clear. Enquire to claim and personalise.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="contact.html">Claim a premade</a>
-          <a class="btn" href="services.html">See all services</a>
-        </div>
-      </div>
-      <aside class="side">
-        <h3>To claim</h3>
-        <ul class="list">
-          <li>Premade name</li>
-          <li>Your author name + book title</li>
-          <li>Any tweaks requested</li>
-        </ul>
-      </aside>
-    </div>
-  </section>
+<main class="container">
+  <h1>Premade covers</h1>
+  <p>Simple list now. We can add images and filters later.</p>
 
-  <section>
-    <div class="container">
-      <div class="section-head">
-        <div>
-          <h2>Gallery</h2>
-          <p>Replace these cards with your premade images + availability.</p>
-        </div>
-      </div>
-
-      <div class="grid grid-3">
-        <div class="card"><span class="badge">Available</span><h3>Premade Name</h3><p>Genre vibe • $___</p></div>
-        <div class="card"><span class="badge">Available</span><h3>Premade Name</h3><p>Genre vibe • $___</p></div>
-        <div class="card"><span class="badge">Sold</span><h3>Premade Name</h3><p>Genre vibe • $___</p></div>
-      </div>
+  <div class="grid two">
+    <div class="card">
+      <h3>Premade name</h3>
+      <p>Status: Available • Price: $___</p>
+      <a class="btn primary" href="contact.html">Claim this premade</a>
     </div>
-  </section>
+    <div class="card">
+      <h3>Premade name</h3>
+      <p>Status: Sold • Price: $___</p>
+      <a class="btn" href="contact.html">Ask about something similar</a>
+    </div>
+  </div>
 </main>
 
 <footer>
-  <div class="container foot">
-    <div class="small">© 2026 Pixel &amp; Quill Studio</div>
-    <div class="small"><a href="contact.html">Contact</a></div>
+  <div class="container footerrow">
+    <div>© 2026 Pixel &amp; Quill Studio</div>
+    <div><a href="contact.html">Contact</a></div>
   </div>
 </footer>
+
 </body>
 </html>
