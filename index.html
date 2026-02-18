@@ -1,76 +1,148 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Pixel & Quill Studio</title>
-  <meta name="description" content="Book cover design, author branding, and formatting by Pixel & Quill Studio.">
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Strategic book cover design and author branding for romance authors ready to stand out." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-  <div class="container topbar">
-    <div class="brand">
-      Pixel &amp; Quill Studio
-      <small>Book cover design • Branding • Formatting</small>
-    </div>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="Pixel & Quill Studio Home">
+      <!-- Replace with your logo image if you want -->
+      <span class="brand-mark">pixel<br><b>+quill</b></span>
+    </a>
 
-    <nav>
+    <nav class="nav">
       <a class="active" href="index.html">Home</a>
       <a href="services.html">Services</a>
-      <a href="portfolio.html">Portfolio</a>
       <a href="premades.html">Premades</a>
+      <a href="portfolio.html">Portfolio</a>
       <a href="contact.html">Contact</a>
     </nav>
   </div>
 </header>
 
-<main class="container">
-  <h1>Bookish design that helps readers click “buy”.</h1>
-  <p>
-    I create book covers, author branding and launch-ready design for romance authors.
-    If you’re not sure what you need, send an enquiry and I’ll guide you.
-  </p>
+<main>
 
-  <a class="btn primary" href="contact.html">Enquire now</a>
-  <a class="btn" href="services.html">View services</a>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <h1>Book Covers That Sell<br>Before They’re Opened.</h1>
 
-  <hr>
+      <p class="hero-sub">
+        STRATEGIC BOOK COVER DESIGN AND AUTHOR BRANDING<br>
+        FOR ROMANCE AUTHORS READY TO STAND OUT.
+      </p>
 
-  <h2>Start here</h2>
-  <div class="grid three">
-    <div class="card">
-      <h3>Custom covers</h3>
-      <p>Made to suit your genre, reader and vibe.</p>
-      <a class="btn" href="services.html#covers">See options</a>
+      <a class="btn btn-outline" href="contact.html">BOOK YOUR COVER</a>
+
+      <p class="hero-quote">
+        “Georgia made the process so easy and created a comfortable environment for me to share my ideas.
+        She was always just a message or an email away to answer my questions.”
+      </p>
     </div>
-    <div class="card">
-      <h3>Branding</h3>
-      <p>Logos, colours and assets for a cohesive author look.</p>
-      <a class="btn" href="services.html#branding">See packages</a>
-    </div>
-    <div class="card">
-      <h3>Premades</h3>
-      <p>Quick ready-made covers you can claim.</p>
-      <a class="btn" href="premades.html">Browse premades</a>
-    </div>
-  </div>
+  </section>
 
-  <hr>
+  <!-- SERVICES CARDS -->
+  <section class="section section-soft">
+    <div class="wrap">
 
-  <h2>How it works</h2>
-  <ol>
-    <li>Send an enquiry (genre + deadline + what you need).</li>
-    <li>I confirm availability and quote.</li>
-    <li>We create something gorgeous and on-brand.</li>
-  </ol>
+      <div class="cards-3">
+        <article class="service-card">
+          <h3>Book Covers</h3>
+          <p>CUSTOM AND PREMADE COVERS DESIGNED TO CONVERT IN YOUR GENRE.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Branding</h3>
+          <p>COHESIVE VISUAL IDENTITY FOR CAREER AUTHORS.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Formatting</h3>
+          <p>INTERIOR LAYOUTS THAT FEEL AS POLISHED AS YOUR STORY.</p>
+        </article>
+      </div>
+
+      <div class="center">
+        <a class="btn btn-outline-dark" href="services.html">VIEW INVESTMENT</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section section-soft">
+    <div class="wrap">
+      <h2 class="section-title">Some of my work</h2>
+
+      <!-- Upload your cover images into /images/ and update src paths -->
+      <div class="work-grid">
+        <img class="work-img" src="images/work-1.png" alt="Cover design example 1">
+        <img class="work-img" src="images/work-2.png" alt="Cover design example 2">
+        <img class="work-img" src="images/work-3.png" alt="Cover design example 3">
+        <img class="work-img" src="images/work-4.png" alt="Cover design example 4">
+        <img class="work-img" src="images/work-5.png" alt="Cover design example 5">
+        <img class="work-img" src="images/work-6.png" alt="Cover design example 6">
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section section-soft">
+    <div class="wrap">
+      <h2 class="section-title">Testimonials</h2>
+
+      <div class="testimonials">
+        <!-- Replace these with your testimonial images if you want -->
+        <article class="testimonial-card">
+          <div class="testimonial-top">
+            <div class="avatar"></div>
+            <div class="sig">Jade Prentice</div>
+          </div>
+          <p>
+            Georgia is literally a gem to work with. I’ve worked with her on cover design and formatting and
+            each time she goes above and beyond for me…
+          </p>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-top">
+            <div class="avatar alt"></div>
+            <div class="sig">Bonnie Talbot</div>
+          </div>
+          <p>
+            Georgia was amazing to work with!! She was able to take my messy ideas and bring them to life.
+            The cover is stunning and the process was so easy…
+          </p>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FINAL CTA BAND -->
+  <section class="cta-band">
+    <div class="wrap cta-inner">
+      <p class="cta-line">
+        You’ve poured months — maybe years — into your manuscript.<br>
+        <b>Let’s make sure your cover does it justice.</b>
+      </p>
+
+      <a class="btn btn-outline" href="contact.html">ENQUIRE NOW</a>
+    </div>
+  </section>
+
 </main>
 
-<footer>
-  <div class="container footerrow">
-    <div>© 2026 Pixel &amp; Quill Studio</div>
-    <div><a href="contact.html">Contact</a></div>
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p>© <span id="year">2026</span> Pixel & Quill Studio</p>
+    <p><a href="contact.html">Contact</a></p>
   </div>
 </footer>
 
