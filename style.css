@@ -1,3 +1,20 @@
+/* ========== Custom Fonts ========== */
+
+@font-face {
+  font-family: 'Zamora';
+  src: url('fonts/Zamora-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Handmade Wanderlust';
+  src: url('fonts/HandmadeWanderlust-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /* ========== Base ========== */
 :root{
   --pink-bg:#f7d9df;
