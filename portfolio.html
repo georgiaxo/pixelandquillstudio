@@ -1,94 +1,50 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio | Pixel & Quill Studio</title>
-  <meta name="description" content="Published covers and branding work." />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a class="skip" href="#content">Skip to content</a>
 
 <header>
-  <div class="container nav">
-    <a class="brand" href="index.html"><span class="logo" aria-hidden="true"></span><span>Pixel &amp; Quill Studio<small>portfolio</small></span></a>
+  <div class="container topbar">
+    <div class="brand">
+      Pixel &amp; Quill Studio
+      <small>Portfolio</small>
+    </div>
 
-    <input id="navToggle" type="checkbox" aria-label="Toggle menu" />
-    <label class="burger" for="navToggle">Menu</label>
-
-    <nav class="nav-links" aria-label="Primary">
+    <nav>
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
       <a class="active" href="portfolio.html">Portfolio</a>
       <a href="premades.html">Premades</a>
       <a href="contact.html">Contact</a>
     </nav>
-
-    <div class="cta-row">
-      <a class="btn" href="services.html">Pricing</a>
-      <a class="btn btn-primary" href="contact.html">Enquire</a>
-    </div>
   </div>
 </header>
 
-<main id="content">
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="panel">
-        <h1>Portfolio</h1>
-        <p class="subhead">Drop your published covers here. Keep unrevealed work private (love that boundary).</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="contact.html">I want a cover</a>
-          <a class="btn" href="premades.html">Browse premades</a>
-        </div>
-      </div>
-      <aside class="side">
-        <h3>How to add images</h3>
-        <p class="note">Upload images into your repo (e.g. a folder named <b>portfolio</b>) and link them here.</p>
-      </aside>
-    </div>
-  </section>
+<main class="container">
+  <h1>Portfolio</h1>
+  <p>Add your published covers here (we can upload images later).</p>
 
-  <section>
-    <div class="container">
-      <div class="section-head">
-        <div>
-          <h2>Featured work</h2>
-          <p>Replace each card with an image + title + author.</p>
-        </div>
-      </div>
+  <div class="grid three">
+    <div class="card"><h3>Project title</h3><p>Author name • Genre</p></div>
+    <div class="card"><h3>Project title</h3><p>Author name • Genre</p></div>
+    <div class="card"><h3>Project title</h3><p>Author name • Genre</p></div>
+  </div>
 
-      <div class="grid grid-3">
-        <div class="card"><h3>Cover Title</h3><p>Author Name • Genre</p></div>
-        <div class="card"><h3>Cover Title</h3><p>Author Name • Genre</p></div>
-        <div class="card"><h3>Cover Title</h3><p>Author Name • Genre</p></div>
-        <div class="card"><h3>Cover Title</h3><p>Author Name • Genre</p></div>
-        <div class="card"><h3>Cover Title</h3><p>Author Name • Genre</p></div>
-        <div class="card"><h3>Cover Title</h3><p>Author Name • Genre</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta">
-    <div class="container">
-      <div class="cta-box">
-        <h2>Want your cover to sit in this grid next?</h2>
-        <p>Tell me your trope + release date and I’ll confirm availability.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="contact.html">Enquire</a>
-          <a class="btn" href="services.html">See packages</a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <hr>
+  <a class="btn primary" href="contact.html">Enquire for a cover</a>
 </main>
 
 <footer>
-  <div class="container foot">
-    <div class="small">© 2026 Pixel &amp; Quill Studio</div>
-    <div class="small"><a href="services.html">Services</a> • <a href="contact.html">Contact</a></div>
+  <div class="container footerrow">
+    <div>© 2026 Pixel &amp; Quill Studio</div>
+    <div><a href="services.html">Services</a></div>
   </div>
 </footer>
+
 </body>
 </html>
