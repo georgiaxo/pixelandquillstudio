@@ -1,135 +1,84 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Services | Pixel & Quill Studio</title>
-  <meta name="description" content="Book cover design, author branding, formatting, and bookish extras." />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a class="skip" href="#content">Skip to content</a>
 
 <header>
-  <div class="container nav">
-    <a class="brand" href="index.html"><span class="logo" aria-hidden="true"></span><span>Pixel &amp; Quill Studio<small>services</small></span></a>
+  <div class="container topbar">
+    <div class="brand">
+      Pixel &amp; Quill Studio
+      <small>Services</small>
+    </div>
 
-    <input id="navToggle" type="checkbox" aria-label="Toggle menu" />
-    <label class="burger" for="navToggle">Menu</label>
-
-    <nav class="nav-links" aria-label="Primary">
+    <nav>
       <a href="index.html">Home</a>
       <a class="active" href="services.html">Services</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="premades.html">Premades</a>
       <a href="contact.html">Contact</a>
     </nav>
-
-    <div class="cta-row">
-      <a class="btn" href="portfolio.html">See work</a>
-      <a class="btn btn-primary" href="contact.html">Enquire</a>
-    </div>
   </div>
 </header>
 
-<main id="content">
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="panel">
-        <div class="kicker">
-          <span class="pill">💗 Clear options</span>
-          <span class="pill">🗓️ Deadline-friendly</span>
-          <span class="pill">📦 Files delivered organised</span>
-        </div>
-        <h1>Services + pricing</h1>
-        <p class="subhead">Choose your main service below, then add the extras that support your launch.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="contact.html">Reserve your spot</a>
-          <a class="btn" href="premades.html">Need a quick cover?</a>
-        </div>
-      </div>
+<main class="container">
+  <h1>Services</h1>
+  <p>Clear options, easy navigation. Pricing can be added/updated anytime.</p>
 
-      <aside class="side">
-        <h3>To book fastest</h3>
-        <ul class="list">
-          <li>Genre + tropes</li>
-          <li>Release date / deadline</li>
-          <li>Any must-haves (objects, mood, colours)</li>
-        </ul>
-        <p class="note">I’ll reply with availability + next steps.</p>
-      </aside>
+  <div class="grid two">
+    <div class="card" id="covers">
+      <h2>Custom covers</h2>
+      <ul>
+        <li>Ebook cover design</li>
+        <li>Optional: paperback wrap</li>
+        <li>Optional: social graphics</li>
+      </ul>
+      <a class="btn" href="contact.html">Enquire about covers</a>
     </div>
-  </section>
 
-  <section>
-    <div class="container">
-      <div class="section-head">
-        <div>
-          <h2>Core services</h2>
-          <p>Replace the pricing placeholders with your real numbers from your current site.</p>
-        </div>
-      </div>
-
-      <div class="grid grid-3">
-        <div class="card">
-          <span class="badge">Best seller</span>
-          <h3>Custom cover</h3>
-          <p>Designed to hit genre expectations while still feeling uniquely yours.</p>
-          <div class="price"><b>$___ AUD</b><span>Includes: ___</span></div>
-        </div>
-
-        <div class="card">
-          <h3>Branding package</h3>
-          <p>Logo suite + palette + fonts + icons so everything looks cohesive.</p>
-          <div class="price"><b>$___ AUD</b><span>Packages from</span></div>
-        </div>
-
-        <div class="card">
-          <h3>Formatting</h3>
-          <p>Clean, readable interiors with your vibe (chapter breaks, extras, etc.).</p>
-          <div class="price"><b>$___ AUD</b><span>Starts at</span></div>
-        </div>
-      </div>
-
-      <div class="divider"></div>
-
-      <div class="section-head">
-        <div>
-          <h2>À la carte (cute extras)</h2>
-          <p>Perfect if you already have a cover but want your launch to feel premium.</p>
-        </div>
-      </div>
-
-      <div class="grid grid-3">
-        <div class="card"><h3>A+ content</h3><p>Amazon visuals that make readers click “buy”.</p></div>
-        <div class="card"><h3>PR box design</h3><p>Packaging that makes book mail feel like Christmas.</p></div>
-        <div class="card"><h3>Sprayed edges</h3><p>Because pretty books sell themselves on TikTok.</p></div>
-        <div class="card"><h3>Social graphics</h3><p>Reveal posts, quote cards, story templates.</p></div>
-        <div class="card"><h3>Merch design</h3><p>Stickers, bookmarks, keyrings, whatever you’re cooking.</p></div>
-        <div class="card"><h3>Website refresh</h3><p>A cute, clean home for your author brand.</p></div>
-      </div>
+    <div class="card" id="branding">
+      <h2>Author branding</h2>
+      <ul>
+        <li>Logo suite</li>
+        <li>Colour palette + fonts</li>
+        <li>Icons / graphics</li>
+      </ul>
+      <a class="btn" href="contact.html">Enquire about branding</a>
     </div>
-  </section>
 
-  <section class="cta">
-    <div class="container">
-      <div class="cta-box">
-        <h2>Not sure what you need?</h2>
-        <p>Send your situation and I’ll tell you the best conversion path for your goals.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="contact.html">Ask me</a>
-          <a class="btn" href="portfolio.html">See proof</a>
-        </div>
-      </div>
+    <div class="card" id="formatting">
+      <h2>Formatting</h2>
+      <ul>
+        <li>Interior layout (ebook / print)</li>
+        <li>Chapter styling + breaks</li>
+        <li>Optional extras (art pages, etc.)</li>
+      </ul>
+      <a class="btn" href="contact.html">Enquire about formatting</a>
     </div>
-  </section>
+
+    <div class="card" id="alacarte">
+      <h2>À la carte</h2>
+      <ul>
+        <li>A+ content</li>
+        <li>PR box design</li>
+        <li>Merch / stickers / bookmarks</li>
+        <li>Sprayed edge designs</li>
+      </ul>
+      <a class="btn" href="contact.html">Ask about an add-on</a>
+    </div>
+  </div>
 </main>
 
 <footer>
-  <div class="container foot">
-    <div class="small">© 2026 Pixel &amp; Quill Studio</div>
-    <div class="small"><a href="index.html">Home</a> • <a href="contact.html">Contact</a></div>
+  <div class="container footerrow">
+    <div>© 2026 Pixel &amp; Quill Studio</div>
+    <div><a href="index.html">Home</a></div>
   </div>
 </footer>
+
 </body>
 </html>
